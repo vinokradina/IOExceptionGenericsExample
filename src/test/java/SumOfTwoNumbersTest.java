@@ -3,7 +3,6 @@ import static org.junit.jupiter.api.Assertions.*;
 
 public class SumOfTwoNumbersTest {
 
-    // Реализация
     public static class SumOfTwoNumbers {
         public int sum(String input1, String input2) {
             int number1 = Integer.parseInt(input1);
@@ -12,7 +11,6 @@ public class SumOfTwoNumbersTest {
         }
     }
 
-    // Тесты
     @Test
     public void testValidSum() {
         SumOfTwoNumbers sumOfTwoNumbers = new SumOfTwoNumbers();
